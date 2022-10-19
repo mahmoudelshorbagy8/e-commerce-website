@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>name store</title>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Custom Fontawesome CDN-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+ <!-- swiper CDN------>
+ <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+  <!-- Project -->
+<body>
+<!--section header Start----->
+<header class="header">
+  <!-- navbar-->
+  <a href="#" class="logo">store.</a>
+  
+  <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#featured">featured</a>
+    <a href="#products">products</a>
+    <a href="#categories">categories</a>
+    <a href="#blogs">blogs</a>
+  </nav>
+  <!-- icons------------->
+   <div class="icons">
+    <i class="fas fa-bars" id="menu-btn"></i>
+    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-user" id="login-btn"></i>
+    <i class="fas fa-shopping-cart" id="cart-btn"></i>
+
+   </div>
+   
+  <!-- form box----------->
+  
+  <!-- search box---->
+  <form action="" class="search-box">
+ <input type="search" placeholder="search here.." id"search-box">
+ <label for="search-box" class="fas fa-search"></label>
+  </form>
+  <!-- start login----->
+  <form action="" class="login-form">
+      <h3>login now</h3>
+      <input class="box" type="email" placeholder="enter your mail" />
+    <input class="box" type="password" placeholder="enter your password"/>
+    <a href="#">forget your password</a>
+    <a href="#">new account</a>
+    <input  type="submit" value="login now"  class="btn"/>
+    <div class="socil">
+      <h3>login account</h3>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-google"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fab fa-twitter"></i>
+    </div>
+    </form>
+</header>
+<!--section header end----->
+
+<!--section home start----->
+<section class="home" id="home">
+  <div class="container-slaide">
+    
+    <div class="slaid active">
+      <div class="text">
+        <span>new arrivals</span>
+        <h3>for men</h3>
+        <p>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
+        <a href="" class="btn">shop now!</a>
+      </div>
+      <div class="imge">
+        <img src="home1.png" alt="">
+      </div>
+    </div>
+    
+    <div class="slaid">
+      <div class="text">
+        <span>new arrivals</span>
+        <h3>for women</h3>
+        <p>Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.</p>
+        <a href="" class="btn">shop now!</a>
+      </div>
+      <div class="imge">
+        <img src="home2.png" alt="">
+      </div>
+    </div>
+  </div>
+<div class="fas fa-angle-right" onclick="next()" id="next"></div>
+<div class="fas fa-angle-left" id="prev" onclick="prev()"></div>
+</section>
+
+<!--section banner start----->
+<section id="#home" class="container-banner">
+ <div class="container">
+   <div class="banner scrollbar">
+     <div class="box">
+       <div class="box-img">
+         <img src="shirt-1.jpg">
+       </div>
+       <div class="info">
+         <div class="text">
+           <h3>mens fashion</h3>
+           <span>(60)</span>
+         </div>
+         <a href="#">show all</a>
+       </div>
+     </div>
+     <!-- box1------------>
+       <div class="box">
+         <div class="box-img">
+           <img src="shorts-1.jpg">
+         </div>
+         <div class="info">
+           <div class="text">
+             <h3>shorts</h3>
+             <span>(70)</span>
+           </div>
+           <a href="#">show all</a>
+         </div>
+       </div>
+      <!-- box-2------------>
+    <div class="box">
+      <div class="box-img">
+        <img src="clothes-1.jpg">
+      </div>
+      <div class="info">
+        <div class="text">
+          <h3>full short</h3>
+          <span>(66)</span>
+        </div>
+        <a href="#">show all</a>
+      </div>
+    </div>
+         <!-- box-3------------>
+      <div class="box">
+        <div class="box-img">
+          <img src="clothes-3.jpg">
+        </div>
+        <div class="info">
+          <div class="text">
+            <h3>black flora</h3>
+            <span>(45)</span>
+          </div>
+          <a href="#">show all</a>
+        </div>
+      </div>
+         <!-- box-4------------>
+        <div class="box">
+          <div class="box-img">
+            <img src="jacket-3.jpg">
+          </div>
+          <div class="info">
+            <div class="text">
+              <h3>jacket</h3>
+              <span>(90)</span>
+            </div>
+            <a href="#">show all</a>
+          </div>
+        </div>
+         <!-- box5------------>
+          <div class="box">
+            <div class="box-img">
+              <img src="jacket-5.jpg">
+            </div>
+            <div class="info">
+              <div class="text">
+                <h3>zip jacket</h3>
+                <span>(60)</span>
+              </div>
+              <a href="#">show all</a>
+            </div>
+          </div>
+          <!-- box-6------------>
+       <div class="box">
+         <div class="box-img">
+           <img src="clothes-2.jpg">
+         </div>
+         <div class="info">
+           <div class="text">
+             <h3>girl pink</h3>
+             <span>(69)</span>
+           </div>
+           <a href="#">show all</a>
+         </div>
+       </div>
+   </div>
+ </div> 
+</section>
+
+<!--section arrivals start----->
+<section class="arrivals" id="home">
+  <div class="heading">
+    <h1>new arrivals</h1>
+  </div>
+  <div class="box-arri">
+         <!-- box-arrivals1------------>
+         
+    <div class="info-arri">
+      <div class="banner-arr">
+        <img src="shirt-1.jpg" class="first">
+        <img src="shirt-2.jpg" class="second">
+        <div class="icon">
+          <i class="fas fa-eye"></i>
+          <i class="fas fa-heart"></i>
+          <i class="fas fa-share"></i>
+        </div>
+      </div>
+      <div class="details">
+        <h5>shirt</h5>
+        <p>men's winter</p>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half"></i>
+        </div>
+        <div class="price">$120.00 <span>$200</span></div>
+      </div>
+    </div>
+                <!-- box-arrivals2------------>
+       
+   <div class="info-arri">
+     <div class="banner-arr">
+       <img src="jacket-2.jpg" class="first">
+       <img src="jacket-3.jpg" class="second">
+       <div class="icon">
+         <i class="fas fa-eye"></i>
+         <i class="fas fa-heart"></i>
+         <i class="fas fa-share"></i>
+       </div>
+     </div>
+     <div class="details">
+       <h5>jacket</h5>
+       <p>men's winter</p>
+       <div class="star">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half"></i>
+       </div>
+       <div class="price">$130.00 <span>$90</span></div>
+     </div>
+   </div> 
+            <!-- box-arrivals3------------>
+    <div class="info-arri">
+      <div class="banner-arr">
+        <img src="jacket-5.jpg" class="first">
+        <img src="jacket-6.jpg" class="second">
+        <div class="icon">
+          <i class="fas fa-eye"></i>
+          <i class="fas fa-heart"></i>
+          <i class="fas fa-share"></i>
+        </div>
+      </div>
+      <div class="details">
+        <h5>jacket</h5>
+        <p>men's winter</p>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half"></i>
+        </div>
+        <div class="price">$150.00 <span>$300</span></div>
+      </div>
+    </div>
+            <!-- box-arrivals4------------> 
+     <div class="info-arri">
+       <div class="banner-arr">
+         <img src="watch-1.jpg" class="first">
+         <img src="watch-2.jpg" class="second">
+         <div class="icon">
+           <i class="fas fa-eye"></i>
+           <i class="fas fa-heart"></i>
+           <i class="fas fa-share"></i>
+         </div>
+       </div>
+       <div class="details">
+         <h5>watch</h5>
+         <p>smart watch</p>
+         <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half"></i>
+         </div>
+         <div class="price">$100.00 <span>$150</span></div>
+       </div>
+     </div>
+              <!-- box-arrivals5------------>
+      <div class="info-arri">
+        <div class="banner-arr">
+          <img src="shoe-1.jpg" class="first">
+          <img src="shoe-2_1.jpg" class="second">
+          <div class="icon">
+            <i class="fas fa-eye"></i>
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-share"></i>
+          </div>
+        </div>
+        <div class="details">
+          <h5>official</h5>
+          <p>formal for men's</p>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+          </div>
+          <div class="price">$120.00 <span>$200</span></div>
+        </div>
+      </div>
+               <!-- box-arrivals6------------>
+       <div class="info-arri">
+         <div class="banner-arr">
+           <img src="party-wear-1.jpg" class="first">
+           <img src="party-wear-2.jpg" class="second">
+           <div class="icon">
+             <i class="fas fa-eye"></i>
+             <i class="fas fa-heart"></i>
+             <i class="fas fa-share"></i>
+           </div>
+         </div>
+         <div class="details">
+           <h5>party wear</h5>
+           <p>women's party wear shoes</p>
+           <div class="star">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half"></i>
+           </div>
+           <div class="price">$120.00 <span>$200</span></div>
+         </div>
+       </div>
+               <!-- box-arrivals7------------>
+       <div class="info-arri">
+         <div class="banner-arr">
+           <img src="sports-1.jpg" class="first">
+           <img src="sports-3.jpg" class="second">
+           <div class="icon">
+             <i class="fas fa-eye"></i>
+             <i class="fas fa-heart"></i>
+             <i class="fas fa-share"></i>
+           </div>
+         </div>
+         <div class="details">
+           <h5>sport</h5>
+           <p>running & sport claw</p>
+           <div class="star">
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star"></i>
+             <i class="fas fa-star-half"></i>
+           </div>
+           <div class="price">$130.00 <span>$200</span></div>
+         </div>
+       </div>
+             <!-- box-arrivals8------------>
+    <div class="info-arri">
+      <div class="banner-arr">
+        <img src="clothes-3.jpg" class="first">
+        <img src="clothes-4.jpg" class="second">
+        <div class="icon">
+          <i class="fas fa-eye"></i>
+          <i class="fas fa-heart"></i>
+          <i class="fas fa-share"></i>
+        </div>
+      </div>
+      <div class="details">
+        <h5>skirt</h5>
+        <p>women's wear</p>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half"></i>
+        </div>
+        <div class="price">$270.00 <span>$400</span></div>
+      </div>
+    </div>
+             <!-- box-arrivals9------------>
+    <div class="info-arri">
+      <div class="banner-arr">
+        <img src="watch-3.jpg" class="first">
+        <img src="watch-4.jpg" class="second">
+        <div class="icon">
+          <i class="fas fa-eye"></i>
+          <i class="fas fa-heart"></i>
+          <i class="fas fa-share"></i>
+        </div>
+      </div>
+      <div class="details">
+        <h5>watch</h5>
+        <p>pocket watch</p>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half"></i>
+        </div>
+        <div class="price">$300.00 <span>$150</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!---section home ene--------->
+
+<!--section features statt--------->
+
+<section class="features" id="featured">
+  <div class="heading">
+    <h1>featured</h1>
+  </div>
+  
+  <div class="box-container">
+    <div class="box">
+       <!-- img box---->
+      <div class="image-box">
+        <div class="small">
+         <img src="feature1.jpeg" class="img-small-1">
+       <img src="feature2.jpeg" class="img-small-1">
+      <img src="feature3.jpeg" class="img-small-1">
+        </div>
+      <div class="big-img">
+        <img src="feature1.jpeg" class="img-big-1" >
+      </div>
+      </div>
+      <!-- text---->
+      <div class="text">
+        <h3>men's clothing</h3>
+         <div class="star">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half"></i>
+         </div>
+        <p>Reference Site About Lorem Ipsum, Giving Information On Its Origins, As Well As A Random Lipsum Generator.</p>
+          <div class="price">$300.00 <span>$150</span></div>
+          <a href="#" class="btn">buy now</a>
+      </div>
+    </div>
+    <!-- box2-------->
+   <div class="box">
+     <!-- img box---->
+     <div class="image-box">
+       <div class="small">
+         <img src="1.jpg" class="img-small-2">
+         <img src="2.jpg" class="img-small-2">
+         <img src="3.jpg" class="img-small-2">
+       </div>
+       <div class="big-img">
+         <img src="1.jpg" class="img-big-2">
+       </div>
+     </div>
+     <!-- text---->
+     <div class="text">
+       <h3>men's clothing</h3>
+       <div class="star">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half"></i>
+       </div>
+       <p>Reference Site About Lorem Ipsum, Giving Information On Its Origins, As Well As A Random Lipsum Generator.</p>
+       <div class="price">$300.00 <span>$150</span></div>
+       <a href="#" class="btn">buy now</a>
+     </div>
+   </div>
+   
+    <div class="box">
+      <!-- img box---->
+      <div class="image-box">
+        <div class="small">
+          <img src="f1.jpeg" class="img-small-3">
+          <img src="f2.jpeg" class="img-small-3">
+          <img src="f3.jpeg" class="img-small-3">
+        </div>
+        <div class="big-img">
+          <img src="f1.jpeg" class="img-big-3">
+        </div>
+      </div>
+      <!-- text---->
+      <div class="text">
+        <h3>men's clothing</h3>
+        <div class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half"></i>
+        </div>
+        <p>Reference Site About Lorem Ipsum, Giving Information On Its Origins, As Well As A Random Lipsum Generator.</p>
+        <div class="price">$300.00 <span>$150</span></div>
+        <a href="#" class="btn">buy now</a>
+      </div>
+    </div>
+    
+   <div class="box">
+     <!-- img box---->
+     <div class="image-box">
+       <div class="small">
+         <img src="J.jpg" class="img-small-4">
+         <img src="J1.jpg" class="img-small-4">
+         <img src="J2.jpg" class="img-small-4">
+       </div>
+       <div class="big-img">
+         <img src="J.jpg" class="img-big-4">
+       </div>
+     </div>
+     <!-- text---->
+     <div class="text">
+       <h3>men's clothing</h3>
+       <div class="star">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half"></i>
+       </div>
+       <p>Reference Site About Lorem Ipsum, Giving Information On Its Origins, As Well As A Random Lipsum Generator.</p>
+       <div class="price">$300.00 <span>$150</span></div>
+       <a href="#" class="btn">buy now</a>
+     </div>
+   </div>
+  </div>
+</section>
+<!--section features end--------->
+
+<!--section products start--->
+<section class="products" id="products">
+   <div class="heading">
+    <h1>products</h1>
+  </div>
+   
+   <div class="fillter">
+    <div class="butnon move" data-filter="all">all</div> 
+     <div class="butnon" data-filter="top Rated">top Rated</div> 
+     <div class="butnon" data-filter="trending">trending</div>
+     <div class="butnon" data-filter="lasting">lasting</div> 
+       
+   </div>
+     <div class="container">
+       <div class="row">
+         <!-- all---->
+         
+      <div class="col" data-item="all">
+       <div class="icon">
+         <i class="fas fa-heart"></i>
+         <i class="fas fa-eye"></i>
+         <i class="fas fa-search"></i>
+         </div>
+         <div class="images">
+          <img src="watch-1.jpg">
+          </div>
+          <div class="text">
+            <h3>watch</h3>
+       <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+       </div>
+            <p>smart watch</p>
+           <div class="price">$100 <span>$150</span></div>
+          </div>
+    <a href="" class="btn">buy now</a>
+  </div> 
+  
+   <div class="col" data-item="all">
+   <div class="icon">
+    <i class="fas fa-heart"></i>
+    <i class="fas fa-eye"></i>
+    <i class="fas fa-search"></i>
+   </div>
+   <div class="images">
+   <img src="jacket-6.jpg">
+    </div>
+          <div class="text">
+            <h3>jacket</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>men's clothes</p>
+            <div class="price">$300.00 <span>$150</span></div>
+          </div>
+          <a href="" class="btn">buy now</a>
+   </div>
+   
+    <div class="col" data-item="all">
+     <div class="icon">
+     <i class="fas fa-heart"></i>
+     <i class="fas fa-eye"></i>
+     <i class="fas fa-search"></i>
+    </div>
+   <div class="images">
+   <img src="clothes-4.jpg">
+   </div>
+           <div class="text">
+             <h3>Skirt</h3>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+             </div>
+             <p>women clothes</p>
+             <div class="price">$300.00 <span>$150</span></div>
+           </div>
+           <a href="" class="btn">buy now</a>
+     </div>
+     
+    <div class="col" data-item="all">
+     <div class="icon">
+       <i class="fas fa-heart"></i>
+       <i class="fas fa-eye"></i>
+       <i class="fas fa-search"></i>
+        </div>
+       <div class="images">
+        <img src="watch-4.jpg">
+       </div>
+           <div class="text">
+             <h3>watch</h3>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+             </div>
+             <p>Pocket Watch</p>
+             <div class="price">$300.00 <span>$150</span></div>
+           </div>
+           <a href="" class="btn">buy now</a>
+    </div>
+         <!-- top Rated---->
+         <div class="col" data-item="top Rated">
+           <div class="icon">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+            <i class="fas fa-search"></i>
+           </div>
+           <div class="images">
+             <img src="jacket-2.jpg">
+           </div>
+            <div class="text">
+              <h3>jacket</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>men's clothes</p>
+              <div class="price">$300.00 <span>$150</span></div>
+            </div>
+            <a href="" class="btn">buy now</a>
+         </div>
+         
+          <div class="col" data-item="top Rated">
+            <div class="icon">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-eye"></i>
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="images">
+              <img src="shirt-1.jpg">
+            </div>
+            <div class="text">
+              <h3>shirt</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>men's clothes</p>
+              <div class="price">$300.00 <span>$150</span></div>
+            </div>
+            <a href="" class="btn">buy now</a>
+          </div>
+          <!-- box3---->
+        <div class="col" data-item="top Rated">
+          <div class="icon">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="images">
+            <img src="party-wear-1.jpg">
+          </div>
+             <div class="text">
+               <h3>Party Wear</h3>
+               <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+               </div>
+               <p>Women's Party Wear Shoes</p>
+               <div class="price">$300.00 <span>$150</span></div>
+             </div>
+             <a href="" class="btn">buy now</a>
+        </div>
+                  <!-- box4---->
+         <div class="col" data-item="top Rated">
+           <div class="icon">
+             <i class="fas fa-heart"></i>
+             <i class="fas fa-eye"></i>
+             <i class="fas fa-search"></i>
+           </div>
+           <div class="images">
+             <img src="clothes-2.jpg">
+           </div>
+            <div class="text">
+              <h3>girl's pnk</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>women's clothes</p>
+              <div class="price">$300.00 <span>$150</span></div>
+            </div>
+            <a href="" class="btn">buy now</a>
+         </div>
+         <!-- trending----->
+         
+          <div class="col" data-item="trending">
+            <div class="icon">
+              <i class="fas fa-heart"></i>
+              <i class="fas fa-eye"></i>
+              <i class="fas fa-search"></i>
+            </div>
+             <div class="images">
+               <img src="sports-1.jpg">
+             </div>
+               <div class="text">
+                 <h3>running & trekking</h3>
+                 <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                 </div>
+                 <p>sports</p>
+                 <div class="price">$300.00 <span>$150</span></div>
+               </div>
+               <a href="" class="btn">buy now</a>
+          </div>
+          
+           <div class="col" data-item="trending">
+             <div class="icon">
+               <i class="fas fa-heart"></i>
+               <i class="fas fa-eye"></i>
+               <i class="fas fa-search"></i>
+             </div>
+             <div class="images">
+               <img src="sports-3.jpg">
+             </div>
+                <div class="text">
+                  <h3>sport claw</h3>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <p>sports</p>
+                  <div class="price">$300.00 <span>$150</span></div>
+                </div>
+                <a href="" class="btn">buy now</a>
+           </div>
+           
+            <div class="col" data-item="trending">
+              <div class="icon">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-eye"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <div class="images">
+                <img src="shoe-1.jpg">
+              </div>
+               <div class="text">
+                 <h3>official</h3>
+                 <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                 </div>
+                 <p>Formal For Men's</p>
+                 <div class="price">$300.00 <span>$150</span></div>
+               </div>
+               <a href="" class="btn">buy now</a>
+            </div>
+         
+     <div class="col" data-item="trending">
+       <div class="icon">
+         <i class="fas fa-heart"></i>
+         <i class="fas fa-eye"></i>
+         <i class="fas fa-search"></i>
+       </div>
+       <div class="images">
+         <img src="shoe-2_1.jpg">
+       </div>
+           <div class="text">
+             <h3>official</h3>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+             </div>
+             <p>Formal For Men's</p>
+             <div class="price">$300.00 <span>$150</span></div>
+           </div>
+           <a href="" class="btn">buy now</a>
+     </div>
+         
+        <!-- lasting ---->
+         <div class="col" data-item="lasting">
+           <div class="icon">
+             <i class="fas fa-heart"></i>
+             <i class="fas fa-eye"></i>
+             <i class="fas fa-search"></i>
+           </div>
+           <div class="images">
+             <img src="feature1.jpeg">
+           </div>
+             <div class="text">
+               <h3>Collection</h3>
+               <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+               </div>
+               <p>Men's clothing</p>
+               <div class="price">$300.00 <span>$150</span></div>
+             </div>
+             <a href="" class="btn">buy now</a>
+         </div>
+        
+         <div class="col" data-item="lasting">
+           <div class="icon">
+             <i class="fas fa-heart"></i>
+             <i class="fas fa-eye"></i>
+             <i class="fas fa-search"></i>
+           </div>
+           <div class="images">
+             <img src="feature2.jpeg">
+           </div>
+            <div class="text">
+              <h3>Collection</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p>men's clothes</p>
+              <div class="price">$300.00 <span>$150</span></div>
+            </div>
+            <a href="" class="btn">buy now</a>
+         </div>
+         
+        <div class="col" data-item="lasting">
+          <div class="icon">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="images">
+            <img src="f1.jpeg">
+          </div>
+           <div class="text">
+             <h3>Collection</h3>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+             </div>
+             <p>men's clothes</p>
+             <div class="price">$300.00 <span>$150</span></div>
+           </div>
+           <a href="" class="btn">buy now</a>
+        </div>
+        
+        
+        <div class="col" data-item="lasting">
+          <div class="icon">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-eye"></i>
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="images">
+            <img src="feature3.jpeg">
+          </div>
+               <div class="text">
+                 <h3>Collection</h3>
+                 <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                 </div>
+                 <p>men's clothes</p>
+                 <div class="price">$300.00 <span>$150</span></div>
+               </div>
+               <a href="" class="btn">buy now</a>
+        </div>
+       </div>
+     </div>
+</section>
+<!--section products end--->
+
+<!--section sales products-------->
+  
+<section class="sales">
+  <div class="box-sales">
+    <div class="imge-sales">
+      <img src="jewellery-1.jpg">
+    </div>
+    <div class="contact">
+      <div class="star">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="far fa-star"></i>
+         <i class="far fa-star"></i>
+      </div>
+      <h3>rose gold diamond</h3>
+      <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor</p>
+       <div class="price">$300.00 <span>$150</span></div>
+       <a href="#" class="btn">add to cart</a>
+      <div class="bar">
+        <p>already sold</p>
+        <p>available</p>
+        <div class="bar-border"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--section sales products-------->
+
+<!-- section client Start---------->
+
+<section class="review">
+<div class="heading">
+    <h1>Testimonial</h1>
+  </div>
+ <div class="container">
+   <div class=" Testimonial">
+     <div class="swiper row-slider">
+       <div class="swiper-wrapper">
+         
+         <div class="swiper-slide slide-col">
+           <img src="T-1.jpeg" >
+           <div class="texts">
+             <p>Lorem ipsum dolor sit amet consectetur <br>Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor</p>
+             <i class="fas fa-quote-right"></i>
+             <h3>Sonia</h3>
+           </div>
+         </div>
+         
+        <div class="swiper-slide slide-col">
+          <img src="T-2.jpeg">
+          <div class="texts">
+            <p>Lorem ipsum dolor sit amet consectetur <br>Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor</p>
+             <i class="fas fa-quote-right"></i>
+            <h3>Sonia</h3>
+          </div>
+        </div>
+        
+       <div class="swiper-slide slide-col">
+         <img src="T-3.jpeg">
+         <div class="texts">
+           <p>Lorem ipsum dolor sit amet consectetur <br>Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor</p>
+            <i class="fas fa-quote-right"></i>
+           <h3>Sonia</h3>
+         </div>
+       </div>
+         
+          <div class="swiper-slide slide-col">
+            <img src="T-4.jpeg">
+            <div class="texts">
+              <p>Lorem ipsum dolor sit amet consectetur <br>Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor</p>
+              <i class="fas fa-quote-right"></i>
+              <h3>Sonia</h3>
+            </div>
+          </div>
+       </div>
+        <div class="swiper-button-next nav-link"></div>
+        <div class="swiper-button-prev nav-link"></div>
+      <div class="swiper-pagination"></div>
+     </div>
+   </div>
+ </div>
+</section>
+<!-- section client end---------->
+
+<!-- section subscribe start---------->
+<section class="subscribe">
+  
+  <div class="container">
+    <div class="mail">
+      <h4>25% discount</h4>
+      <h1>subscribe</h1>
+      <form action="">
+     <input type="email" placeholder="enter your email" id="email"/>
+       <label for="email" 
+        class="fas fa-envelope" id="send"></label>
+   </form>
+    </div>
+  </div>
+</section>
+<!-- section subscribe end---------->
+
+<!-- section blog start---------->
+
+<section class="blogs" id="blogs">
+ <div class="heading">
+   <h1>blogs</h1>
+ </div>
+ <div class="container">
+   <div class="container-blog">
+     
+     <div class="row-blog">
+       <div class="col-blog">
+         <div class="img-blog">
+           <img src="p1.jpg">
+         </div>
+         <div class="contact-blog">
+           <h3>blog title</h3>
+           <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor</p>
+         <div class="iconblog">
+           <a href="#"> <i class="fas fa-calendar"></i> 19 wed oct, 2022 </a>
+           <a href="#"> <i class="fas fa-user"></i> by admin</a>
+         </div>
+         </div>
+       </div>
+     </div>
+     
+      <div class="row-blog">
+        <div class="col-blog">
+          <div class="img-blog">
+            <img src="p2.jpg">
+          </div>
+          <div class="contact-blog">
+            <h3>blog title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor</p>
+            <div class="iconblog">
+              <a href="#"> <i class="fas fa-calendar"></i> 19 wed oct, 2022 </a>
+              <a href="#"> <i class="fas fa-user"></i> by admin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="row-blog">
+        <div class="col-blog">
+          <div class="img-blog">
+            <img src="p3.jpg">
+          </div>
+          <div class="contact-blog">
+            <h3>blog title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor</p>
+            <div class="iconblog">
+              <a href="#"> <i class="fas fa-calendar"></i> 19 wed oct, 2022 </a>
+              <a href="#"> <i class="fas fa-user"></i> by admin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <div class="row-blog">
+        <div class="col-blog">
+          <div class="img-blog">
+            <img src="p1.jpg">
+          </div>
+          <div class="contact-blog">
+            <h3>blog title</h3>
+            <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor dolor sit amet consectetur Lorem ipsum dolor</p>
+            <div class="iconblog">
+              <a href="#"> <i class="fas fa-calendar"></i> 19 wed oct, 2022 </a>
+              <a href="#"> <i class="fas fa-user"></i> by admin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+ </div>
+</section>
+<!-- section blog end---------->
+
+
+<!-- footer ---------------->
+  <footer>
+    <div class="container">
+       <div class="box-container">
+      
+         <div class="box-footer">
+           <h3>quick links</h3>
+           <a href="#"> <i class="fas fa-angle-right"></i> home</a>
+           <a href="#"> <i class="fas fa-angle-right"></i> featured</a>
+           <a href="#"> <i class="fas fa-angle-right"></i> products</a>
+           <a href="#"> <i class="fas fa-angle-right"></i> categories</a>
+           <a href="#"> <i class="fas fa-angle-right"></i> blogs</a>
+         </div>
+      
+         <div class="box-footer">
+           <h3>contact info</h3>
+           <a href="#"> <i class="fas fa-phone-alt"></i> +453-346-346</a>
+           <a href="#"> <i class="fas fa-phone-alt"></i> +453-346-678</a>
+           <a href="#"> <i class="fas fa-map-marker-alt"></i> bytom, poland - 2 </a>
+           <a href="#"> <i class="fas fa-envelope"></i> info@email.com</a>
+         </div>
+      
+         <div class="box-footer">
+           <h3>follow us</h3>
+           <a href="#"> <i class="fab fa-facebook-f"></i> facebook</a>
+           <a href="#"> <i class="fab fa-twitter"></i> twitter</a>
+           <a href="#"> <i class="fab fa-instagram"></i> instagram</a>
+           <a href="#"> <i class="fab fa-google"></i> google</a>
+           <a href="#"> <i class="fab fa-linkedin"></i> linkedin</a>
+      
+         </div>
+           <div class="box-footer">
+             <img src="visa1.png">
+             <img src="visa2.png">
+             <img src="visa 3.png">
+             <h3>download app</h3>
+         <img src="gg-play.png">
+         <img src="app-store.png">
+           </div>
+       </div>
+       <h1 class="credit"> &copy; copyright @ 2021 by CODZERO</h1>
+    </div>
+  </footer>
+
+
+
+  <!-- script swiper CDN-------->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <!-- mainjs---->
+  <script src="main.js"></script>
+</body>
+</html>
